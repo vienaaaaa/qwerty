@@ -1,0 +1,9 @@
+idk = {"ate":"cool",
+       "moots":"followback",
+       "HELP":"laughing"
+       }
+word = input()
+if word in idk.keys() :
+    print(idk[word])
+else:
+    print('gaada')
